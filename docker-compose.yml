@@ -1,0 +1,10 @@
+version: '3'
+services:
+  classifier:
+    build: .
+#    command: python test.py --report --top10
+    command: /opt/conda/bin/jupyter notebook --notebook-dir=/root/jupyter --ip='*' --port=8888 --no-browser --allow-root
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./src:/root/jupyter/
