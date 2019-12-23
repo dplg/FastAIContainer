@@ -5,9 +5,13 @@ however this has been evilishly adopted as a aircraft carrier to house the AI wh
 
 This is being updated to allow **a few**, *video game developers*, a way of **easily implementing real time adaptation and AI analysis** to *enhance* behavior of automated bots within __Unreal Engine 4__ and beyond into the eternal future.
 
-This is just the platform, not the finished version for that project. This will remain clean cut and **AVAILABLE ON GITHUB AT ALL TIMES**.
+This is just the platform, not the finished version for that project. 
 
-We are looking for a Python master to handle all adaptive programming and analysis, as well as algo development to process AI reactions to incoming fire, or supression, and succession of command during firefights.
+This will remain clean cut and **AVAILABLE ON GITHUB AT ALL TIMES**.
+
+We are looking for a Python master to handle all adaptive programming and analysis, 
+as well as algo development to process AI reactions to incoming fire, 
+or supression, and succession of command during firefights.
 
 __For the game-dev version__, please visit www.DEVGRU.club and click "Enhanced AI Interfacing"
 
