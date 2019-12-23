@@ -23,7 +23,7 @@ RUN apt-get install -y curl grep sed dpkg && \
 
 RUN mkdir /fastai/ && cd / && \
     git clone https://github.com/fastai/fastai.git && cd fastai && conda env update && /bin/bash activate fastai
-    #conda activate fastai
+    conda activate fastai
 
 RUN pip install --upgrade git+https://github.com/pytorch/text
 
