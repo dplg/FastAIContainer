@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM bitnami:minideb
 LABEL Maintainer="R. Neff B. Dash <devgru.club@gmail.com>" \
       Description="FastAI POC Container"
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
