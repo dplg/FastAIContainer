@@ -1,5 +1,5 @@
 FROM debian:latest
-LABEL Maintainer="Rob Bickel <rbickel@trackbill.com>" \
+LABEL Maintainer="R. Neff B. Dash <devgru.club@gmail.com>" \
       Description="FastAI POC Container"
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV PATH /opt/conda/bin:$PATH
@@ -9,7 +9,7 @@ RUN apt-get update --fix-missing && apt-get install -y wget bzip2 ca-certificate
     git mercurial subversion
 
 RUN wget --quiet https://repo.continuum.io/archive/Anaconda2-5.1.0-Linux-x86_64.sh -O ~/anaconda.sh && \
-    /bin/bash ~/anaconda.sh -b -p /opt/conda && \
+    bash ~/anaconda.sh -b -p /opt/conda && \
     ln -s /opt/conda/etc/profile.d/conda.sh /etc/profile.d/conda.sh && \
     echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc && \
     echo "conda activate base" >> ~/.bashrc
