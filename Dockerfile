@@ -7,7 +7,7 @@ ENV PATH /opt/conda/bin:$PATH
 RUN apt-get update --fix-missing && apt-get install -y wget bzip2 ca-certificates \
     libglib2.0-0 libxext6 libsm6 libxrender1 \
     git mercurial subversion bc time tmux sshuttle
-
+## Adding a Tunnel seems to be the way to go regarding API defense, SSH FTW
 RUN wget --quiet https://repo.continuum.io/archive/Anaconda2-5.1.0-Linux-x86_64.sh -O ~/anaconda.sh && \
     bash ~/anaconda.sh -b -p /opt/conda && \
     ln -s /opt/conda/etc/profile.d/conda.sh /etc/profile.d/conda.sh && \
