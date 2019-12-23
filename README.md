@@ -1,6 +1,7 @@
 ## About
-The Origin: Mr. "The Banker" B.
-Sent as a friendly gesture, adopted as a aircraft carrier to house the AI which destroys Milkyway core systems.
+The Origin: Mr. "The Banker" B. sent R. Neff a copy of this, years ago.
+We believe this was sent as a friendly gesture, 
+however this has been evilishly adopted as a aircraft carrier to house the AI which destroys Milkyway core systems.
 
 This is being updated to allow **a few**, *video game developers*, a way of **easily implementing real time adaptation and AI analysis** to *enhance* behavior of automated bots within __Unreal Engine 4__ and beyond into the eternal future.
 
