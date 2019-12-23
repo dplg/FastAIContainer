@@ -31,6 +31,6 @@ RUN mkdir -p /root/jupyter/
 WORKDIR /root/jupyter/
 COPY src/ /root/jupyter/
 
-EXPOSE 80 443
+EXPOSE 84 446
 
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
