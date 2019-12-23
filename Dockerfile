@@ -1,6 +1,6 @@
 FROM bitnami:minideb
-LABEL Maintainer="R. Neff B. Dash <devgru.club@gmail.com>" \
-      Description="FastAI POC Container"
+LABEL Maintainer="R. Neff & B. Dash <devgru.club@gmail.com>" \
+      Description="Modified version of Rob B.'s FastAI POC Container"
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV PATH /opt/conda/bin:$PATH
 
