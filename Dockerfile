@@ -1,3 +1,4 @@
+# Moving to Minideb to avoid complications with Stretch to Buster translation
 FROM bitnami:minideb
 LABEL Maintainer="R. Neff & B. Dash <devgru.club@gmail.com>" \
       Description="Modified version of Rob B.'s FastAI POC Container"
