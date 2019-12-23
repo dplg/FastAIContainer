@@ -32,6 +32,7 @@ RUN mkdir -p /root/jupyter/
 WORKDIR /root/jupyter/
 COPY src/ /root/jupyter/
 
-EXPOSE 84 446
+EXPOSE 84 446 
+# Offsetting Ports to avoid conflicts in container environment @ alpha testing facility
 
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
